@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783343771181",
+    "project_id": "mobilalkfejl-e4613",
+    "storage_bucket": "mobilalkfejl-e4613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783343771181:android:90ffad98009bb55cc7a2a4",
+        "android_client_info": {
+          "package_name": "com.example.mobilalkfejl_kotprog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfm97xdMUriHtnyxvP13tqhBVWi1k-laY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
