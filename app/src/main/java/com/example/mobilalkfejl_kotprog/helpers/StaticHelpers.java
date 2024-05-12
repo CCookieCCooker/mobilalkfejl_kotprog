@@ -16,4 +16,14 @@ public class StaticHelpers {
         view2.setLayoutParams(params);
         snack.show();
     }
+
+    public static void showTopSnackbar(View view, Exception ex) {
+        Snackbar snack = Snackbar.make(view, ex.getMessage() == null ? "An unexpected error occurred" : ex.getMessage(), Snackbar.LENGTH_LONG);
+        View view2 = snack.getView();
+        FrameLayout.LayoutParams params =(FrameLayout.LayoutParams)view2.getLayoutParams();
+        params.gravity = Gravity.TOP;
+        params.topMargin = 100;
+        view2.setLayoutParams(params);
+        snack.show();
+    }
 }

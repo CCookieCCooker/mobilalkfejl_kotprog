@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Mobilalkfejl_kotprog"
         tools:targetApi="31">
         <activity
+            android:name=".CreatePlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayersListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateTeamActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

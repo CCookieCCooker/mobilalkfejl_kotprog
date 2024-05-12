@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
                 })
                 .addOnFailureListener(ex -> {
-                    StaticHelpers.showTopSnackbar(view, ex.getMessage() == null ? "An unexpected error occurred" : ex.getMessage());
+                    StaticHelpers.showTopSnackbar(view, ex);
                 });
     }
 

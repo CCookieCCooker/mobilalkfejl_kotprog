@@ -1,4 +1,4 @@
-package com.example.mobilalkfejl_kotprog.ui.home;
+package com.example.mobilalkfejl_kotprog.ui.teams;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
